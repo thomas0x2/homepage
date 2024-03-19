@@ -1,0 +1,217 @@
+.intro-text {
+	width: 100%;
+	font: 22px 'DM sans', sans-serif;
+}
+
+.intro-name {
+	width: 100%;
+	font: 42px 'DM Sans', sans-serif;
+	font-weight: bold;
+}
+
+header {
+	position: relative;
+	z-index: 20;
+	background-color: white;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav a {
+	vertical-align: top;
+	font: 28px 'DM Sans', sans-serif;
+	color: #8f8f8f;
+	text-decoration: none;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	position: relative;
+	padding: 45px 20px 20px 20px;
+
+}
+
+.logo {
+	padding-top: 20px;
+}
+
+body {
+	width: 60%;
+	padding-right: 20%;
+	padding-left: 20%;
+	align-items: center;
+}
+
+.content {
+	width: 80%;
+	padding: 20px;
+}
+
+h1 {
+	font: 38px 'DM Sans', sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	font: 24px 'DM Sans', sans-serif;
+	font-weight: bold;
+}
+
+p {
+	font: 16px 'DM Sans', sans-serif;
+	color: #8f8f8f;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 145%;
+}
+
+.social-box {
+	padding-top: 100px;
+}
+
+.social-logo {
+	padding: 10px;
+	transform: translate(0.5px, 0.5px);
+}
+
+.menu {
+	display: none;
+}
+
+.menu-content {
+	display: block;
+	position: absolute;
+	z-index: -1;
+	justify-content: space-between;
+	width: 80%;
+	height: 80px;
+	background-color: white;
+	text-align: center;
+	top: 0px;
+	opacity: 0;
+	transition: top 0.2s ease-out, visibility 0.1s;
+}
+
+.menu-content.show {
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.show {
+	display: block;
+}
+
+.menubtn {
+	background-color: white;
+	border: none;
+	color: white;
+	padding: 10px;
+}
+
+.dropdownlink {
+	font: 18px 'DM sans', sans-serif;
+	text-decoration: none;
+	color: #8f8f8f;
+	text-align: center;
+	padding: 20px;
+}
+
+.buffer {
+	padding: 10px
+}
+
+.contact form {
+	width: 600px;
+	text-align: left;
+}
+
+form .input-box {
+	display: flex;
+	justify-content: space-between‚;
+}
+
+.input-box .input-field {
+	width: 48.5%;
+}
+
+form .textarea-field .item {
+	resize: none;
+}
+
+.field .item {
+	width: 100%;
+	padding: 18px;
+	background: transparent;
+	border: 0px solid #8f8f8f;
+	border-radius: 12px;
+	outline: none;
+	font: 16px 'DM Sans', sans-serif;
+	color: black;
+	margin: 6px 0;
+	background-color: #e9e9e9;
+}
+
+.field .item::placeholder {
+	color: #8f8f8f;
+}
+
+.field .error-txt {
+	font: 14px 'DM Sans', sans-serif;
+	color: red;
+	text-align: left;
+	margin: 5px 0 5px;
+	display: none;
+}
+
+form button {
+	padding: 18px;
+	border: none;
+	border-radius: 12px;
+	outline: none;
+	font: 16px 'DM Sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #8f8f8f;
+}
+
+@media (max-width: 1301px) {
+	.menu {
+		display: block;
+	}
+
+	.nav {
+		display: none;
+	}
+}
+
+@media (min-width: 1300px) {
+
+	.menu-content,
+	.menu,
+	.menubtn {
+		display: none;
+	}
+
+	.nav {
+		display: flex;
+	}
+
+	body {
+		width: 90%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}
