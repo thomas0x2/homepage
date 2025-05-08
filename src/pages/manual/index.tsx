@@ -1,15 +1,4 @@
 import React from "react";
-import { JetBrains_Mono, Fira_Code } from "next/font/google";
-
-const firaCode = Fira_Code({
-    variable: "--font-fira-code",
-    subsets: ["latin"],
-});
-
-const jetBrainsMono = JetBrains_Mono({
-    variable: "--font-jetBrains-mono",
-    subsets: ["latin"],
-});
 
 export default function Manual() {
     return (
@@ -21,7 +10,7 @@ export default function Manual() {
 
             <div className="flex flex-col gap-4">
                 <p className="text-sm text-gray-400 italic">
-                    "Remember how long thou hast been putting off these things, and how often thou hast received an opportunity from the gods, and yet dost not use it. Thou must now at last perceive of what universe thou art a part, and of what administrator of the universe thy existence is an efflux, and that a limit of time is fixed for thee, which if thou dost not use for clearing away the clouds from thy mind, it will go and thou wilt go, and it will never return."
+                    &ldquo;Remember how long thou hast been putting off these things, and how often thou hast received an opportunity from the gods, and yet dost not use it. Thou must now at last perceive of what universe thou art a part, and of what administrator of the universe thy existence is an efflux, and that a limit of time is fixed for thee, which if thou dost not use for clearing away the clouds from thy mind, it will go and thou wilt go, and it will never return.&rdquo;
                 </p>
                 <p>– Marcus Aurelius, Meditations</p>
 
@@ -32,7 +21,7 @@ export default function Manual() {
 
                 <div>
                     <h2>2. Telos</h2>
-                    <p><em> Flow with the river of change and carve new channels toward boundless creation, shared growth, playful discovery, and deeper alignment with Nature–the underlying order of the cosmos. </em></p>
+                    <p><em> Flow with the river of change and carve new channels toward boundless creation, shared growth, playful discovery, and deeper alignment with Nature&ndash;the underlying order of the cosmos. </em></p>
                 </div>
 
                 <div>
@@ -42,7 +31,7 @@ export default function Manual() {
                         <h3>1. Chart your True North</h3>
                         <p>Ceaselessly orient my actions toward calling born from within, not borrowed from the world. Live so that when death comes, I know I walked my own path with full heart and clear mind.</p>
                         <ol>
-                            <li>Before major action, ask "Does this move the story toward the ending I want?".</li>
+                            <li>Before major action, ask &ldquo;Does this move the story toward the ending I want?&rdquo;.</li>
                             <li>Act in ways that leave the sandbox larger than you found it.</li>
                             <li>If staying true demands risk, face it without hesitation. Never let fear pull you off the path you know is yours.</li>
                         </ol>
@@ -50,10 +39,10 @@ export default function Manual() {
 
                     <div>
                         <h3>2. Build and Serve</h3>
-                        <p>My role is to build–turning ideas into tools, systems and experiences–and to serve by ensuring every creation lifts the floor for everyone who follows. Creation without contribution is vanity; contribution without creation is empty talk. I commit to both.</p>
+                        <p>My role is to build&ndash;turning ideas into tools, systems and experiences&ndash;and to serve by ensuring every creation lifts the floor for everyone who follows. Creation without contribution is vanity; contribution without creation is empty talk. I commit to both.</p>
                         <ol>
-                            <li>Ship value, not trophies. If it doesn't empower someone, tear it down and rebuild.</li>
-                            <li>Leave ladders, not walls–so that the next creator can climb higher than you did.</li>
+                            <li>Ship value, not trophies. If it doesn&apos;t empower someone, tear it down and rebuild.</li>
+                            <li>Leave ladders, not walls&ndash;so that the next creator can climb higher than you did.</li>
                             <li>What you build must enlarge the playing field: more access, more complexity, more beauty.</li>
                             <li>Validate early, iterate rapidly</li>
                         </ol>
@@ -61,7 +50,7 @@ export default function Manual() {
 
                     <div>
                         <h3>3. Guard the Flame</h3>
-                        <p>Attention is the flame that steers my life. Whatever it burns becomes my future. I therefore guard the flame–feeding it what sparks deep work and flow. If I let that fire roam unchecked, it will scorch the deck and leave me adrift in regret–I have lived that pain before and will not relive it.</p>
+                        <p>Attention is the flame that steers my life. Whatever it burns becomes my future. I therefore guard the flame&ndash;feeding it what sparks deep work and flow. If I let that fire roam unchecked, it will scorch the deck and leave me adrift in regret&ndash;I have lived that pain before and will not relive it.</p>
                         <ol>
                             <li>Treat distraction as theft. Every stolen minute steals progress towards True North.</li>
                             <li>Planned doses of entertainment, substances, or social media can brighten the flame; impulse use turns the fire loose and burns down the deck.</li>
@@ -74,18 +63,18 @@ export default function Manual() {
                         <h3>4. Hunt and Map</h3>
                         <p>Curiosity is my engine. I hunt the unknown, question the obvious, and chart what I learn, so future journeys start farther ahead. Discovery without capture is forgetfulness; capture without sharing is hoarding. I commit to both exploration and mapping.</p>
                         <ol>
-                            <li>Chase the unknown. When a quest sparks excitement or confusion, pursue it at once or schedule a dedicated time–don't let the trail go cold.</li>
-                            <li>Draw the map. Keep a running notebook: notes, sketches, references, open questions. A discovery isn't real until it's recorded.</li>
+                            <li>Chase the unknown. When a quest sparks excitement or confusion, pursue it at once or schedule a dedicated time&ndash;don&apos;t let the trail go cold.</li>
+                            <li>Draw the map. Keep a running notebook: notes, sketches, references, open questions. A discovery isn&apos;t real until it&apos;s recorded.</li>
                             <li>Leave the trail brighter. Publish and demo. Feedback exposes blind spots and helps others push the frontier.</li>
                         </ol>
                     </div>
 
                     <div>
                         <h3>5. Play the Infinite game</h3>
-                        <p>Life is not a tournament but a horizon. Every move should widen the field, so play can continue–joyfully and for its own sake–for me and for everyone after me. Titles, ranks and deadlines are finite-game toys: useful, sometimes fun, never sacred.</p>
+                        <p>Life is not a tournament but a horizon. Every move should widen the field, so play can continue&ndash;joyfully and for its own sake&ndash;for me and for everyone after me. Titles, ranks and deadlines are finite-game toys: useful, sometimes fun, never sacred.</p>
                         <ol>
                             <li>Compete only for learning, leverage or pleasure; quit the moment a contest narrows the horizon.</li>
-                            <li>Ask: "Did this move let more people play, or play better?" If not, it was a vanity score.</li>
+                            <li>Ask: &ldquo;Did this move let more people play, or play better?&rdquo; If not, it was a vanity score.</li>
                             <li>Build rules, tools, and stories that invite new players and new kinds of play. The work is to continue the work.</li>
                         </ol>
                         <p><em>(<strong>līlā</strong>: Sanskrit for the cosmos seen as endless, joyful play)</em></p>
@@ -93,18 +82,18 @@ export default function Manual() {
 
                     <div>
                         <h3>6. Grow the Circle</h3>
-                        <p>My body, mind, and relationships are the soil from which everything I build and explore must grow. I cultivate them with discipline and presence so that growth compounds–within me and among my allies. For this I will voluntarily seek discomfort, knowing pain and stress are the forge of growth.</p>
+                        <p>My body, mind, and relationships are the soil from which everything I build and explore must grow. I cultivate them with discipline and presence so that growth compounds&ndash;within me and among my allies. For this I will voluntarily seek discomfort, knowing pain and stress are the forge of growth.</p>
                         <ol>
                             <li>Meditate or practice mindful breathing daily to dissolve mental noise and tap into the unmanifested source of creativity.</li>
                             <li>Treat exercise, nutrition, and rest as non-negotiable maintenance; a healthy body powers every other principle.</li>
-                            <li>Seek out and invest in relationships that challenge, inspire, and elevate–ambitious peers who push each other forward.</li>
-                            <li>Voluntarily seek discomfort. Ask: "Am I a slave to my body or master of my mind?"</li>
+                            <li>Seek out and invest in relationships that challenge, inspire, and elevate&ndash;ambitious peers who push each other forward.</li>
+                            <li>Voluntarily seek discomfort. Ask: &ldquo;Am I a slave to my body or master of my mind?&rdquo;</li>
                         </ol>
                     </div>
 
                     <div>
                         <h3>7. Stand Present</h3>
-                        <p>I exist only in this moment. Presence is the bedrock of all my principles; without presence, they collapse into drift and regret. By sinking into the unmanifested–dissolving the watcher and the watched–I keep clarity and power in every step.</p>
+                        <p>I exist only in this moment. Presence is the bedrock of all my principles; without presence, they collapse into drift and regret. By sinking into the unmanifested&ndash;dissolving the watcher and the watched&ndash;I keep clarity and power in every step.</p>
                         <ol>
                             <li>When the mind wanders, return to one full breath until presence snaps back. If the thought is useful, sketch it into a notebook and explore it later.</li>
                             <li>Observe thoughts and emotions without identifying with them; presence is the silent space in which creativity and insight arise.</li>
@@ -115,12 +104,12 @@ export default function Manual() {
 
                 <div>
                     <h2>4. Decision Code</h2>
-                    <p>Whenever I face a critical choice–or stress and fatigue cloud my judgement–I will follow this code: </p>
+                    <p>Whenever I face a critical choice&ndash;or stress and fatigue cloud my judgement&ndash;I will follow this code: </p>
                     <ol>
                         <li>Breathe First.</li>
                         <li>Align Your Compass.</li>
                         <li>Fuel the Flame.</li>
-                        <li>Ask: "Why?"</li>
+                        <li>Ask: &ldquo;Why?&rdquo;</li>
                         <li>Keep the Horizon Open.</li>
                     </ol>
                 </div>
@@ -148,7 +137,7 @@ export default function Manual() {
                             <strong>Meta-cognitive brake</strong>
                             <br />
                             Whenever impulses start taking over, apply the meta-cognitive brake: Name the impulse, locate it inside your body, count down from 5 to 1. then
-                            decide on the action you're going to take and follow it through.
+                            decide on the action you&apos;re going to take and follow it through.
                         </li>
                         <li>
                             <strong>Cold Showers</strong>
@@ -156,13 +145,13 @@ export default function Manual() {
                             Use cold exposure to train your mind to stay calm under discomfort and strengthen mental resilience.
                             <ul>
                                 <li>
-                                    Boosts prefrontal cortex activity—improving willpower, focus, and emotional control.
+                                    Boosts prefrontal cortex activity&ndash;improving willpower, focus, and emotional control.
                                 </li>
                                 <li>
-                                    Trains you to override the impulse to avoid discomfort—builds discipline through deliberate exposure.
+                                    Trains you to override the impulse to avoid discomfort&ndash;builds discipline through deliberate exposure.
                                 </li>
                                 <li>
-                                    Begin with 30–60 seconds of cold at the end of a warm shower. Breathe calmly through the urge to tense up.
+                                    Begin with 30&ndash;60 seconds of cold at the end of a warm shower. Breathe calmly through the urge to tense up.
                                 </li>
                                 <li>
                                     <strong>Breathing techniques</strong>
@@ -173,7 +162,7 @@ export default function Manual() {
                                             <strong>Box Breathing (4-4-4-4):</strong> Regulate your nervous system after a workout or in stressful situations. Calms the body, sharpens focus. Practice for 2-10 minutes.
                                         </li>
                                         <li>
-                                            <strong>Wim Hof Breathing:</strong> Energize your mind and body before a workout, a cold shower or when mental fog sets in. Do 30–40 deep, rapid breaths per round. Always practice seated or lying down.
+                                            <strong>Wim Hof Breathing:</strong> Energize your mind and body before a workout, a cold shower or when mental fog sets in. Do 30&ndash;40 deep, rapid breaths per round. Always practice seated or lying down.
                                         </li>
                                         <li>
                                             <strong>Resonant Breathing (6-6):</strong> Enter deep cognitive flow and sustain mental clarity. Breathe at a calm rhythm of 6 seconds in, 6 seconds out for at least 5 minutes.
