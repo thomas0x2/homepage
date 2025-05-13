@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Manual() {
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] min-h-screen gap-8 p-8 pb-20 sm:p-20">
+        <div className="container mx-auto min-h-screen gap-8 p-8 pb-20 sm:p-20">
             <div>
                 <h1 className="font-header text-2xl font-bold">The Sandbox Manual</h1>
                 <span className="text-gray-500">V0.14 – 4th May 2025</span>

@@ -33,12 +33,12 @@ export async function getStaticProps() {
 
 export default function Blog({ posts }: { posts: BlogPostProps[] }) {
     return (
-        <div className="container mx-auto px-4 py-8">
-            <h1 className="font-header text-2xl font-bold">Blog</h1>
+        <div className="container mx-auto px-4 py-8 text-center">
+            <h1 className="font-header text-2xl font-bold pb-2">/blog</h1>
             <ul>
                 {posts.map((post) => (
-                    <li key={post.slug}>
-                        <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                    <li key={post.slug} className="hover:underline cursor-pointer">
+                        <Link href={`/blog/${post.slug}`}>{post.title}    –    {post.date}</Link>
                     </li>
                 ))}
             </ul>
