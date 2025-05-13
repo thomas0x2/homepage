@@ -176,3 +176,17 @@ export default function Manual() {
         </div>
     );
 }
+export async function getStaticProps() {
+    const content = {
+        title: "The Sandbox Manual",
+        description: "A manual on how to live a life of purpose.",
+        version: "0.14",
+        date: "4th May 2025",
+    }
+
+    return {
+        props: {
+            content,
+        },
+    }
+}

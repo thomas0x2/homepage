@@ -17,8 +17,18 @@ export default function Home() {
       className={`${firaCode.className} ${jetBrainsMono.className} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-fira-code)]`}
     >
       <div className="flex flex-col gap-4">
-        <h1 className="font-header text-2xl font-bold text-center">Start here</h1>
-        <Link href="/manual" className="text-center">The Sandbox Manual</Link>
+        <Link href="/manual">
+          <h1 className="font-header text-2xl font-bold">/manual</h1>
+        </Link>
+        <Link href="/blog">
+          <h1 className="font-header text-2xl font-bold">/blog</h1>
+        </Link>
+        <Link href="/projects">
+          <h1 className="font-header text-2xl font-bold">/projects</h1>
+        </Link>
+        <Link href="/about">
+          <h1 className="font-header text-2xl font-bold">/about</h1>
+        </Link>
       </div>
     </div>
   );
