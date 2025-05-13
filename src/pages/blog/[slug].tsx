@@ -43,7 +43,9 @@ export default function BlogPost({ frontmatter, content }: { frontmatter: Frontm
                 <div className="flex items-center justify-center"><Link href="/blog" className="font-header text-2xl font-bold pb-2">/blog</Link></div>
                 <h1 className="font-header text-2xl font-bold">{frontmatter.title}</h1>
                 <p className="text-gray-500">{frontmatter.date}</p>
-                <ReactMarkdown>{content}</ReactMarkdown>
+                <div className="prose dark:prose-invert">
+                    <ReactMarkdown>{content}</ReactMarkdown>
+                </div>
             </div >
         </>
     )

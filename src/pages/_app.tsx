@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Link from "next/link";
 import Image from "next/image";
-import { Fira_Code } from "next/font/google";
+import { Inter } from "next/font/google";
 import { JetBrains_Mono } from "next/font/google";
 
 const jetBrainsMono = JetBrains_Mono({
@@ -10,7 +10,7 @@ const jetBrainsMono = JetBrains_Mono({
   variable: '--font-header',
 })
 
-const firaCode = Fira_Code({
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-body',
 })
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Image src="/logo_white.png" alt="logo" width={128} height={128} priority={true} />
         </Link>
       </header>
-      <div className={`${firaCode.variable} ${firaCode.className} ${jetBrainsMono.variable} ${jetBrainsMono.className}`}>
+      <div className={`${inter.variable} ${inter.className} ${jetBrainsMono.variable} ${jetBrainsMono.className}`}>
         <Component {...pageProps} />
       </div>
     </>

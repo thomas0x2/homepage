@@ -38,7 +38,7 @@ export default function Blog({ posts }: { posts: BlogPostProps[] }) {
             <ul>
                 {posts.map((post) => (
                     <li key={post.slug} className="hover:underline cursor-pointer">
-                        <Link href={`/blog/${post.slug}`}>{post.title}    –    {post.date}</Link>
+                        <Link href={`/blog/${post.slug}`}>{post.title}<span className="text-gray-400"> // {post.date}</span></Link>
                     </li>
                 ))}
             </ul>
