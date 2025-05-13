@@ -3,6 +3,11 @@ import fs from "fs"
 import matter from "gray-matter"
 import ReactMarkdown from "react-markdown"
 
+export type Frontmatter = {
+    title: string
+    date: string
+}
+
 export async function getStaticPaths() {
     const files = fs.readdirSync("src/posts")
     const paths = files.map(filename => ({
@@ -30,7 +35,7 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
     }
 }
 
-export default function BlogPost({ frontmatter, content }: { frontmatter: any, content: string }) {
+export default function BlogPost({ frontmatter, content }: { frontmatter: Frontmatter, content: string }) {
     return (
         <div className="container mx-auto px-4 py-8">
             <h1 className="font-header text-2xl font-bold">{frontmatter.title}</h1>
