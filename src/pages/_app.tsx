@@ -18,7 +18,7 @@ const inter = Inter({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <header className="flex justify-center items-center pb-5">
+      <header className="flex justify-center items-center">
         <Link href="/">
           <Image src="/logo_white.png" alt="logo" width={128} height={128} priority={true} />
         </Link>
