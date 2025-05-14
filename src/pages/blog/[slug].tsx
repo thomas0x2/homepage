@@ -49,6 +49,13 @@ export default function BlogPost({ frontmatter, content }: { frontmatter: Frontm
                     <ReactMarkdown
                         remarkPlugins={[remarkGfm]}
                         rehypePlugins={[rehypeRaw]}
+                        components={{
+                            table: ({ node, ...props }) => (
+                                <div className="overflow-x-auto w-full">
+                                    <table className="min-w-max" {...props} />
+                                </div>
+                            ),
+                        }}
                     >{content}</ReactMarkdown>
                 </div>
             </div >
