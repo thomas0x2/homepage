@@ -26,11 +26,13 @@ The tax wedge for the average employee in Germany stands at 47.9%–the second-h
 
 If we compare other taxes, we see a similar picture. The following table summarizes some key tax rates based on data from [PwC](https://taxsummaries.pwc.com/germany/corporate/taxes-on-corporate-income).
 
+<div style="overflow-x: auto;">
 | Tax                                      | Germany                          | Switzerland                       | Denmark         | United States                   |
 |------------------------------------------|----------------------------------|-----------------------------------|-----------------|---------------------------------|
 |Corporation tax                           | 15.825% federal, 23% - 33% total | 8.5% federal, 11.9% - 20.5% total | 22%             | 21% federal, 22% - 33% total    |
 |Consumption tax (VAT or sales tax)        | 19%                              | 8.1%                              | 25%             | None, sales tax on average 7.1% |
 |Personal capital gains taxes              | 25%                              | Exempt                            | Taxed as income | 20%                             |
+</div>
 
 &nbsp;
 
@@ -88,12 +90,13 @@ Many will argue that Germany has one of the best healthcare systems in the world
 
 Germany's education system performs respectably, but falls short of its potential. In K-12 education, the most commonly used measure is the [PISA](https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/bevoelkerung-arbeit-soziales/bildung/PISA2022.html) score. 15-year-old students of all OECD countries and beyond are tested every three years in the areas of reading comprehension, mathematics and science. The latest scores are from the year 2022.
 
+<div style="overflow-x: auto;">
 | PISA Scores 2022      | OECD average | Germany | Switzerland | Japan | Finland | United States |
 |-----------------------|--------------|---------|-------------|-------|---------|---------------|
 | Reading               | 476          | 480     | 483         | 516   | 490     | 504           |
 | Mathematics           | 472          | 475     | 508         | 536   | 484     | 465           |
 | Science               | 485          | 492     | 503         | 547   | 511     | 499           |  
-
+</div>
 &nbsp;
 
 This table shows that Germany's K-12 education falls short of expectations. I have included some peer countries–small and large–that show that better education is available in other countries. What certainly surprised me, is that even the students of the United States–despite frequent criticism of their education system–outperformed Germany's students in reading and science! 

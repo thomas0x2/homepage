@@ -14,7 +14,7 @@ const jetBrainsMono = JetBrains_Mono({
 export default function Home() {
   return (
     <div
-      className={`${firaCode.className} ${jetBrainsMono.className} flex items-center justify-center h-[calc(100vh-<header height>)]
+      className={`${firaCode.className} ${jetBrainsMono.className} flex items-center justify-center h-[calc(100vh-<header height>-<footer height>)]
  p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-fira-code)]`}
     >
       <div className="flex flex-col gap-4">

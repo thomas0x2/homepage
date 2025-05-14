@@ -17,15 +17,18 @@ const inter = Inter({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <header className="flex justify-center items-center">
         <Link href="/">
           <Image src="/logo_white.png" alt="logo" width={128} height={128} priority={true} />
         </Link>
       </header>
-      <div className={`${inter.variable} ${inter.className} ${jetBrainsMono.variable} ${jetBrainsMono.className}`}>
+      <div className={`flex-grow ${inter.variable} ${inter.className} ${jetBrainsMono.variable} ${jetBrainsMono.className}`}>
         <Component {...pageProps} />
       </div>
-    </>
+      <footer className="flex justify-center text-sm text-gray-500 py-5">
+        Want to reach out? &nbsp; <a href="mailto:thomas@bollenbach.ch">thomas@bollenbach.ch</a>
+      </footer>
+    </div>
   );
 }
