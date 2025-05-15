@@ -30,9 +30,11 @@ export default function About() {
                         className="rounded"
                     />
                     <p>
-                        Hi, I&apos;m Thomas — a curious system-thinker based in Zurich, raised between South Germany and Switzerland..
+                        Hi, I&apos;m Thomas — a curious system-thinker based in Zurich, raised between South Germany and Switzerland.
                         <br /><br />
-                        I am interested in Mathematics, Computer Science, Physics, Economics, Philosophy, Psychology, Politics, …
+                        I am fascinated by Mathematics, Computer Science, Physics, Economics, Philosophy, Psychology and Systems thinking.
+                        <br /><br />
+                        Some of the thinkers that have shaped my worldview include Buckminster Fuller, Steve Jobs, Stewart Brand, Viktor Frankl, David Deutsch, Carl Jung, Douglas Hofstadter and many more.
                         <br /><br />
                         I created this space to share my thoughts, ideas and projects so they can escape my mind and be free. Please <Link className="underline" href="mailto:thomas@bollenbach.ch">reach out to me</Link> if you&apos;d like to give me feedback on my content!
 
