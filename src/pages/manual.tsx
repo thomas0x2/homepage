@@ -103,10 +103,10 @@ export default function Manual() {
 
                     <div>
                         <h3 className="font-header text-lg font-bold pt-4">8. Love honestly</h3>
-                        <p className="py-2">Love is not just a feeling — it's a commitment to act with care, even when it's hard. True love is what remains when comfort, desire, and ease are gone. I will not mistake emotional safety for love again, but will show it through presence, integrity, and sacrifice.</p>
+                        <p className="py-2">Love is not just a feeling — it&apos;s a commitment to act with care, even when it&apos;s hard. True love is what remains when comfort, desire, and ease are gone. I will not mistake emotional safety for love again, but will show it through presence, integrity, and sacrifice.</p>
                         <ol className="list-disc list-outside ml-6">
-                            <li>Don't start caring less for your loved ones if they can't give you what you wish for in the moment.</li>
-                            <li>Don't let your ambitions drive your loved ones away.</li>
+                            <li>Don&apos;t start caring less for your loved ones if they can&apos;t give you what you wish for in the moment.</li>
+                            <li>Don&apos;t let your ambitions drive your loved ones away.</li>
                         </ol>
                     </div>
                 </div>
